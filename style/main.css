@@ -1,0 +1,33 @@
+body {
+	background:#ffffd0;
+}
+
+#titleBox {
+	position:relative;
+	width:500px;height:500px;
+	background-image:url('../images/background.jpeg');
+	margin:0 auto;
+	border-radius:3px;
+	font-size:150px;
+	font-family:"Comic Sans MS";
+	box-shadow: 0px 5px 10px #000000;
+	border:1px solid #000;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 500px;
+	-webkit-animation:titleBoxColorChange 0.5s infinite;
+	-moz-animation:titleBoxColorChange 0.5s infinite;
+	animation:titleBoxColorChange 0.5s infinite;
+}
+
+@keyframes titleBoxColorChange {
+	50% {font-size:0px;}
+}
+
+@-moz-keyframes titleBoxColorChange {
+	50% {font-size:0px;}
+}
+
+@-webkit-keyframes titleBoxColorChange {
+	50% {font-size:0px;}
+}
